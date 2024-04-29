@@ -1,0 +1,8 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Fri Apr 26 14:00:08 IST 2024","Fri Apr 26 14:00:08 IST 2024","1","Default suite","Default test","testcases.DashBoardTest","testcases.DashBoardTest","tearDown","tearDown",""
+"passed","Sat Apr 27 15:51:42 IST 2024","Sat Apr 27 15:51:48 IST 2024","5838","Suite","Test","testcases.StoreEntryTest","testcases.StoreEntryTest","VerifyStoreEntryTitle","VerifyStoreEntryTitle",""
+"passed","Sat Apr 27 15:51:21 IST 2024","Sat Apr 27 15:51:26 IST 2024","5199","Suite","Test","testcases.HomePageTest","testcases.HomePageTest","VerifyHomePageTitle","VerifyHomePageTitle",""
+"failed","Sat Apr 27 15:50:00 IST 2024","Sat Apr 27 15:51:03 IST 2024","63870","Suite","Test","testcases.DashBoardTest","testcases.DashBoardTest","verifyAllPets","verifyAllPets",""
+"broken","Sat Apr 27 13:16:58 IST 2024","Sat Apr 27 13:16:58 IST 2024","0","Suite","Test","testcases.StoreEntryTest","testcases.StoreEntryTest","VerifyStoreEntryTitle","VerifyStoreEntryTitle",""
+"passed","Sat Apr 27 15:51:31 IST 2024","Sat Apr 27 15:51:37 IST 2024","5952","Suite","Test","testcases.StoreEntryTest","testcases.StoreEntryTest","VerifySignInButtonPresence","VerifySignInButtonPresence",""
+"passed","Sat Apr 27 15:51:09 IST 2024","Sat Apr 27 15:51:16 IST 2024","6866","Suite","Test","testcases.DashBoardTest","testcases.DashBoardTest","verifyAvailablePets","verifyAvailablePets",""
