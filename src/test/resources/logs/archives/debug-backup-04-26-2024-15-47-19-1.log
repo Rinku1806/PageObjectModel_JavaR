@@ -1,0 +1,29 @@
+2024-04-26 15:14:51.705 DEBUG BaseTest:78 - Config & Expected Results Properties loaded
+2024-04-26 15:14:54.657 INFO  BaseTest:100 - Started test in Chrome
+2024-04-26 15:14:56.108 INFO  BaseTest:135 - Navigating to the URL : https://petstore.octoperf.com/
+2024-04-26 15:14:59.115 INFO  BaseTest:139 - Database connection established
+2024-04-26 15:14:59.121 DEBUG BaseTest:143 - waiting for page to load after browser launched
+2024-04-26 15:15:14.287 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:14.288 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:24.859 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:24.859 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:35.550 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:35.555 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:35.556 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:35.556 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:35.556 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:35.556 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:46.184 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:46.184 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:56.840 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:56.840 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:56.840 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:15:56.840 INFO  BaseTest:173 - Validating available pets in the given corresponding tables
+2024-04-26 15:16:02.157 INFO  BaseTest:152 - Test Execution completed, quitting
+2024-04-26 15:16:02.363 DEBUG BaseTest:78 - Config & Expected Results Properties loaded
+2024-04-26 15:16:03.636 INFO  BaseTest:100 - Started test in Chrome
+2024-04-26 15:16:04.623 INFO  BaseTest:135 - Navigating to the URL : https://petstore.octoperf.com/
+2024-04-26 15:16:07.626 INFO  BaseTest:139 - Database connection established
+2024-04-26 15:16:07.628 DEBUG BaseTest:143 - waiting for page to load after browser launched
+2024-04-26 15:16:09.496 INFO  BaseTest:45 - Validation of ARM home page link count completed.
+2024-04-26 15:16:14.507 INFO  BaseTest:152 - Test Execution completed, quitting
