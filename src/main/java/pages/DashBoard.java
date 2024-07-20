@@ -13,7 +13,7 @@ public class DashBoard extends BasePage {
 		
 	}
 	
-	@FindBy(xpath="//*[@id='WelcomeContent']")
+	@FindBy(id="WelcomeContent")
 	public WebElement welcomeContent;
 			
 	@FindBy(xpath="//*[@id='SidebarContent']/a[1]")
@@ -30,6 +30,12 @@ public class DashBoard extends BasePage {
 	
 	@FindBy(xpath="//*[@id='SidebarContent']/a[5]")
 	public WebElement birds;
+	
+	
+	public String getWelcomeContent() {
+		
+		return welcomeContent.getText();
+	}
 	
 	public Birds gotoBirds() {
 		click(birds);
@@ -53,5 +59,7 @@ public class DashBoard extends BasePage {
 		click(fish);
 		return new Fish(driver);
 	}
+	
+	
 
 }

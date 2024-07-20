@@ -3,7 +3,6 @@ testcases\DashBoardTest.class
 utilities\ExcelReader.class
 testTrials\Trial.class
 utilities\DataUtil.class
-utilities\DbManager.class
 utilities\TestConfig.class
 tbase\BaseTest.class
 extentlisteners\ExtentListeners.class

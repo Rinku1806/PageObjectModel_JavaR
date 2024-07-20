@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\bkumar\eclipse-workspace\PageObjectModel_WithoutN\src\test\resources\runner\testng.xml</span>
+                    <span>C:\Users\bkumar\eclipse-workspace\PageObjectModel_Javab\src\test\resources\runner\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">9 methods, 3 failed,   6 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,6 +101,16 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="Verifylogin(chrome, Y, j2ee, rinku1806)">Verifylogin(chrome, Y, j2ee, rinku1806)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="Verifylogin(firefox, Y, rinku, rinku1806)">Verifylogin(firefox, Y, rinku, rinku1806)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.DashBoardTest" class="method navigator-link" hash-for-method="verifyAllPets(chrome, Y)">verifyAllPets(chrome, Y)</a> <!-- method navigator-link -->
@@ -122,7 +132,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="VerifySignInButtonPresence(chrome, Y)">VerifySignInButtonPresence(chrome, Y)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="VerifySignInButtonPresence(firefox, Y)">VerifySignInButtonPresence(firefox, Y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,7 +142,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.DashBoardTest" class="method navigator-link" hash-for-method="verifyAvailablePets(chrome, Y)">verifyAvailablePets(chrome, Y)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="Verifylogin(firefox, Y, rinku, j2ee)">Verifylogin(firefox, Y, rinku, j2ee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.StoreEntryTest" class="method navigator-link" hash-for-method="Verifylogin(chrome, Y, j2ee, j2ee)">Verifylogin(chrome, Y, j2ee, j2ee)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.DashBoardTest" class="method navigator-link" hash-for-method="verifyAvailablePets(edge, Y)">verifyAvailablePets(edge, Y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -147,6 +167,85 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.StoreEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifylogin(chrome, Y, j2ee, rinku1806)">
+                  </a> <!-- Verifylogin(chrome, Y, j2ee, rinku1806) -->
+                  <span class="method-name">Verifylogin</span>
+                  <span class="parameters">(chrome,Y,j2ee,rinku1806)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#WelcomeContent&quot;}
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58e72b0c35021b02c58e9295c4ac6506, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56391/devtoo..., se:cdpVersion: 125.0.6422.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58e72b0c35021b02c58e9295c4ac6506
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+	at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifylogin(firefox, Y, rinku, rinku1806)">
+                  </a> <!-- Verifylogin(firefox, Y, rinku, rinku1806) -->
+                  <span class="method-name">Verifylogin</span>
+                  <span class="parameters">(firefox,Y,rinku,rinku1806)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #WelcomeContent
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58eabc7b-1c66-4fd2-98a3-84034a517565, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:41534, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24988, moz:profile: C:\Users\bkumar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41534/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 58eabc7b-1c66-4fd2-98a3-84034a517565
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+	at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+	at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
@@ -168,9 +267,9 @@
 	expected [Iguana] but found [Rattlesnake],
 	expected [Rattlesnake] but found [Iguana],
 	expected [TigerShark] but found [Tiger Shark]
-	at testcases.DashBoardTest.verifyAllPets(DashBoardTest.java:98)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
+	at testcases.DashBoardTest.verifyAllPets(DashBoardTest.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -179,15 +278,55 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">testcases.StoreEntryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifySignInButtonPresence(firefox, Y)">
+                  </a> <!-- VerifySignInButtonPresence(firefox, Y) -->
+                  <span class="method-name">VerifySignInButtonPresence</span>
+                  <span class="parameters">(firefox,Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyStoreEntryTitle(chrome, Y)">
+                  </a> <!-- VerifyStoreEntryTitle(chrome, Y) -->
+                  <span class="method-name">VerifyStoreEntryTitle</span>
+                  <span class="parameters">(chrome,Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifylogin(firefox, Y, rinku, j2ee)">
+                  </a> <!-- Verifylogin(firefox, Y, rinku, j2ee) -->
+                  <span class="method-name">Verifylogin</span>
+                  <span class="parameters">(firefox,Y,rinku,j2ee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verifylogin(chrome, Y, j2ee, j2ee)">
+                  </a> <!-- Verifylogin(chrome, Y, j2ee, j2ee) -->
+                  <span class="method-name">Verifylogin</span>
+                  <span class="parameters">(chrome,Y,j2ee,j2ee)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">testcases.DashBoardTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAvailablePets(chrome, Y)">
-                  </a> <!-- verifyAvailablePets(chrome, Y) -->
+                  <a name="verifyAvailablePets(edge, Y)">
+                  </a> <!-- verifyAvailablePets(edge, Y) -->
                   <span class="method-name">verifyAvailablePets</span>
-                  <span class="parameters">(chrome,Y)</span>
+                  <span class="parameters">(edge,Y)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -208,40 +347,20 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.StoreEntryTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifySignInButtonPresence(chrome, Y)">
-                  </a> <!-- VerifySignInButtonPresence(chrome, Y) -->
-                  <span class="method-name">VerifySignInButtonPresence</span>
-                  <span class="parameters">(chrome,Y)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyStoreEntryTitle(chrome, Y)">
-                  </a> <!-- VerifyStoreEntryTitle(chrome, Y) -->
-                  <span class="method-name">VerifyStoreEntryTitle</span>
-                  <span class="parameters">(chrome,Y)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\bkumar\eclipse-workspace\PageObjectModel_WithoutN\src\test\resources\runner\testng.xml</span>
+            <span class="header-content">C:\Users\bkumar\eclipse-workspace\PageObjectModel_Javab\src\test\resources\runner\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;extentlisteners.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testcases.DashBoardTest&quot;/&gt;
@@ -286,32 +405,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(9);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyAllPets')
 data.setCell(0, 2, 'testcases.DashBoardTest')
-data.setCell(0, 3, 63891);
+data.setCell(0, 3, 65326);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyAvailablePets')
-data.setCell(1, 2, 'testcases.DashBoardTest')
-data.setCell(1, 3, 6866);
+data.setCell(1, 1, 'Verifylogin')
+data.setCell(1, 2, 'testcases.StoreEntryTest')
+data.setCell(1, 3, 24672);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'VerifySignInButtonPresence')
+data.setCell(2, 1, 'Verifylogin')
 data.setCell(2, 2, 'testcases.StoreEntryTest')
-data.setCell(2, 3, 5954);
+data.setCell(2, 3, 23274);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'VerifyStoreEntryTitle')
+data.setCell(3, 1, 'Verifylogin')
 data.setCell(3, 2, 'testcases.StoreEntryTest')
-data.setCell(3, 3, 5840);
+data.setCell(3, 3, 15058);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'VerifyHomePageTitle')
-data.setCell(4, 2, 'testcases.HomePageTest')
-data.setCell(4, 3, 5201);
+data.setCell(4, 1, 'Verifylogin')
+data.setCell(4, 2, 'testcases.StoreEntryTest')
+data.setCell(4, 3, 13837);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyAvailablePets')
+data.setCell(5, 2, 'testcases.DashBoardTest')
+data.setCell(5, 3, 8339);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'VerifySignInButtonPresence')
+data.setCell(6, 2, 'testcases.StoreEntryTest')
+data.setCell(6, 3, 8167);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'VerifyStoreEntryTitle')
+data.setCell(7, 2, 'testcases.StoreEntryTest')
+data.setCell(7, 3, 6485);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'VerifyHomePageTitle')
+data.setCell(8, 2, 'testcases.HomePageTest')
+data.setCell(8, 3, 5361);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -322,6 +457,30 @@ return data;
             <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verifylogin(chrome, Y, j2ee, rinku1806)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Thu_May_23_13_11_03_IST_2024.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Thu_May_23_13_11_03_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_11_03_IST_2024.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAllPets(chrome, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Thu_May_23_13_09_03_IST_2024.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Thu_May_23_13_09_03_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_09_03_IST_2024.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Verifylogin(firefox, Y, rinku, rinku1806)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Thu_May_23_13_11_33_IST_2024.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Thu_May_23_13_11_33_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_11_33_IST_2024.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
@@ -346,45 +505,81 @@ return data;
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">63945 ms</span>
+                <span class="method-start">65563 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
-                <span class="method-name">verifyAvailablePets(chrome, Y)</span>
-                <span class="method-start">69161 ms</span>
+                <span class="method-name">verifyAvailablePets(edge, Y)</span>
+                <span class="method-start">70797 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">76029 ms</span>
+                <span class="method-start">79139 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">VerifyHomePageTitle(chrome, Y)</span>
-                <span class="method-start">81218 ms</span>
+                <span class="method-start">85389 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">86420 ms</span>
+                <span class="method-start">90752 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.StoreEntryTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">VerifySignInButtonPresence(chrome, Y)</span>
-                <span class="method-start">91611 ms</span>
+                <span class="method-name">VerifySignInButtonPresence(firefox, Y)</span>
+                <span class="method-start">95942 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">97567 ms</span>
+                <span class="method-start">104111 ms</span>
               </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">VerifyStoreEntryTitle(chrome, Y)</span>
-                <span class="method-start">102744 ms</span>
+                <span class="method-start">109777 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">108586 ms</span>
+                <span class="method-start">116264 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verifylogin(chrome, Y, j2ee, j2ee)</span>
+                <span class="method-start">121455 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">135294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verifylogin(firefox, Y, rinku, j2ee)</span>
+                <span class="method-start">140485 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">155548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verifylogin(chrome, Y, j2ee, rinku1806)</span>
+                <span class="method-start">161225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">184662 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Verifylogin(firefox, Y, rinku, rinku1806)</span>
+                <span class="method-start">189851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">214561 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

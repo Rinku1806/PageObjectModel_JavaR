@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="0" total="9" passed="6" failed="3" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[<a href=Thu_May_23_13_09_03_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Thu_May_23_13_09_03_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_09_03_IST_2024.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Thu_May_23_13_11_03_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Thu_May_23_13_11_03_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_11_03_IST_2024.jpg height=200 width=200></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Thu_May_23_13_11_33_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href=Thu_May_23_13_11_33_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_11_33_IST_2024.jpg height=200 width=200></a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2024-04-27T15:49:59 IST" name="Suite" finished-at="2024-04-27T15:51:53 IST" duration-ms="113817">
+  <suite started-at="2024-05-23T13:07:58 IST" name="Suite" finished-at="2024-05-23T13:11:38 IST" duration-ms="220330">
     <groups>
     </groups>
-    <test started-at="2024-04-27T15:49:59 IST" name="Test" finished-at="2024-04-27T15:51:53 IST" duration-ms="113817">
+    <test started-at="2024-05-23T13:07:58 IST" name="Test" finished-at="2024-05-23T13:11:38 IST" duration-ms="220330">
       <class name="testcases.HomePageTest">
-        <test-method signature="VerifyHomePageTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@24097e9b]" started-at="2024-04-27T15:51:21 IST" name="VerifyHomePageTitle" data-provider="dp" finished-at="2024-04-27T15:51:26 IST" duration-ms="5201" status="PASS">
+        <test-method signature="VerifyHomePageTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.HomePageTest@760cf594]" started-at="2024-05-23T13:09:23 IST" name="VerifyHomePageTitle" data-provider="dp" finished-at="2024-05-23T13:09:29 IST" duration-ms="5361" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,13 +50,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyHomePageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@24097e9b]" started-at="2024-04-27T15:51:26 IST" name="tearDown" finished-at="2024-04-27T15:51:31 IST" duration-ms="5170" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@760cf594]" started-at="2024-05-23T13:09:29 IST" name="tearDown" finished-at="2024-05-23T13:09:34 IST" duration-ms="5158" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.HomePageTest -->
       <class name="testcases.DashBoardTest">
-        <test-method signature="verifyAllPets(java.lang.String,java.lang.String)[pri:0, instance:testcases.DashBoardTest@677b8e13]" started-at="2024-04-27T15:50:00 IST" name="verifyAllPets" data-provider="dp" finished-at="2024-04-27T15:51:03 IST" duration-ms="63891" status="FAIL">
+        <test-method signature="verifyAllPets(java.lang.String,java.lang.String)[pri:0, instance:testcases.DashBoardTest@2e5ee2c9]" started-at="2024-05-23T13:07:58 IST" name="verifyAllPets" data-provider="dp" finished-at="2024-05-23T13:09:03 IST" duration-ms="65326" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -66,11 +93,9 @@ expected [Rattlesnake] but found [Iguana],
 expected [TigerShark] but found [Tiger Shark]
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
 at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
-at testcases.DashBoardTest.verifyAllPets(DashBoardTest.java:98)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at testcases.DashBoardTest.verifyAllPets(DashBoardTest.java:84)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
@@ -79,7 +104,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 at org.testng.TestRunner.privateRun(TestRunner.java:819)
 at org.testng.TestRunner.run(TestRunner.java:619)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
@@ -103,17 +128,26 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
+            <line>
+              <![CDATA[<a href=Thu_May_23_13_09_03_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Thu_May_23_13_09_03_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_09_03_IST_2024.jpg height=200 width=200></a>]]>
+            </line>
           </reporter-output>
         </test-method> <!-- verifyAllPets -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashBoardTest@677b8e13]" started-at="2024-04-27T15:51:03 IST" name="tearDown" finished-at="2024-04-27T15:51:09 IST" duration-ms="5183" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashBoardTest@2e5ee2c9]" started-at="2024-05-23T13:09:04 IST" name="tearDown" finished-at="2024-05-23T13:09:09 IST" duration-ms="5189" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="verifyAvailablePets(java.lang.String,java.lang.String)[pri:0, instance:testcases.DashBoardTest@677b8e13]" started-at="2024-04-27T15:51:09 IST" name="verifyAvailablePets" data-provider="dp" finished-at="2024-04-27T15:51:16 IST" duration-ms="6866" status="PASS">
+        <test-method signature="verifyAvailablePets(java.lang.String,java.lang.String)[pri:0, instance:testcases.DashBoardTest@2e5ee2c9]" started-at="2024-05-23T13:09:09 IST" name="verifyAvailablePets" data-provider="dp" finished-at="2024-05-23T13:09:17 IST" duration-ms="8339" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[edge]]>
               </value>
             </param>
             <param index="1">
@@ -125,17 +159,17 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAvailablePets -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashBoardTest@677b8e13]" started-at="2024-04-27T15:51:16 IST" name="tearDown" finished-at="2024-04-27T15:51:21 IST" duration-ms="5164" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashBoardTest@2e5ee2c9]" started-at="2024-05-23T13:09:17 IST" name="tearDown" finished-at="2024-05-23T13:09:23 IST" duration-ms="6212" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testcases.DashBoardTest -->
       <class name="testcases.StoreEntryTest">
-        <test-method signature="VerifySignInButtonPresence(java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@293cde83]" started-at="2024-04-27T15:51:31 IST" name="VerifySignInButtonPresence" data-provider="dp" finished-at="2024-04-27T15:51:37 IST" duration-ms="5954" status="PASS">
+        <test-method signature="VerifySignInButtonPresence(java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:09:34 IST" name="VerifySignInButtonPresence" data-provider="dp" finished-at="2024-05-23T13:09:42 IST" duration-ms="8167" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[firefox]]>
               </value>
             </param>
             <param index="1">
@@ -147,11 +181,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySignInButtonPresence -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@293cde83]" started-at="2024-04-27T15:51:37 IST" name="tearDown" finished-at="2024-04-27T15:51:42 IST" duration-ms="5154" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:09:42 IST" name="tearDown" finished-at="2024-05-23T13:09:48 IST" duration-ms="5638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="VerifyStoreEntryTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@293cde83]" started-at="2024-04-27T15:51:42 IST" name="VerifyStoreEntryTitle" data-provider="dp" finished-at="2024-04-27T15:51:48 IST" duration-ms="5840" status="PASS">
+        <test-method signature="VerifyStoreEntryTitle(java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:09:48 IST" name="VerifyStoreEntryTitle" data-provider="dp" finished-at="2024-05-23T13:09:54 IST" duration-ms="6485" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -167,7 +201,291 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyStoreEntryTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@293cde83]" started-at="2024-04-27T15:51:48 IST" name="tearDown" finished-at="2024-04-27T15:51:53 IST" duration-ms="5160" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:09:54 IST" name="tearDown" finished-at="2024-05-23T13:09:59 IST" duration-ms="5166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:10:00 IST" name="Verifylogin" data-provider="dp" finished-at="2024-05-23T13:10:13 IST" duration-ms="13837" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:10:13 IST" name="tearDown" finished-at="2024-05-23T13:10:19 IST" duration-ms="5186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:10:19 IST" name="Verifylogin" data-provider="dp" finished-at="2024-05-23T13:10:34 IST" duration-ms="15058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rinku]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:10:34 IST" name="tearDown" finished-at="2024-05-23T13:10:39 IST" duration-ms="5676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:10:39 IST" name="Verifylogin" data-provider="dp" finished-at="2024-05-23T13:11:03 IST" duration-ms="23274" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[j2ee]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rinku1806]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#WelcomeContent"}
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58e72b0c35021b02c58e9295c4ac6506, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56391/devtoo..., se:cdpVersion: 125.0.6422.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58e72b0c35021b02c58e9295c4ac6506]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#WelcomeContent"}
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [58e72b0c35021b02c58e9295c4ac6506, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56391}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56391/devtoo..., se:cdpVersion: 125.0.6422.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 58e72b0c35021b02c58e9295c4ac6506
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=Thu_May_23_13_11_03_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Thu_May_23_13_11_03_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_11_03_IST_2024.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:11:03 IST" name="tearDown" finished-at="2024-05-23T13:11:08 IST" duration-ms="5188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verifylogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:11:08 IST" name="Verifylogin" data-provider="dp" finished-at="2024-05-23T13:11:33 IST" duration-ms="24672" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rinku]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[rinku1806]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: #WelcomeContent
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58eabc7b-1c66-4fd2-98a3-84034a517565, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:41534, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24988, moz:profile: C:\Users\bkumar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41534/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 58eabc7b-1c66-4fd2-98a3-84034a517565]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: #WelcomeContent
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.17.0', revision: 'e52b1be057*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [58eabc7b-1c66-4fd2-98a3-84034a517565, findElement {value=WelcomeContent, using=id}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:41534, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 24988, moz:profile: C:\Users\bkumar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:41534/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 58eabc7b-1c66-4fd2-98a3-84034a517565
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy28.getText(Unknown Source)
+at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:308)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:71)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:113)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href=Thu_May_23_13_11_33_IST_2024.jpg target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href=Thu_May_23_13_11_33_IST_2024.jpg target="_blank"><img src=Thu_May_23_13_11_33_IST_2024.jpg height=200 width=200></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Verifylogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.StoreEntryTest@e4b6f47]" started-at="2024-05-23T13:11:33 IST" name="tearDown" finished-at="2024-05-23T13:11:38 IST" duration-ms="5703" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

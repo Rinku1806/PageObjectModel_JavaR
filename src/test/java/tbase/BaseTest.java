@@ -95,7 +95,7 @@ public class BaseTest {
 			Thread.sleep(3000);
 			log.info("Started test in microsoft edge.");
 		}
-
+		try {
 		driver.get(Config.getProperty("TEST_URL"));
 		log.info("Navigating to the URL : " + Config.getProperty("TEST_URL"));
 		Thread.sleep(3000);
@@ -103,7 +103,9 @@ public class BaseTest {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Integer.parseInt(Config.getProperty("IMPLICIT_WAIT"))));
 		wait = new WebDriverWait(driver, Duration.ofSeconds(Integer.parseInt(Config.getProperty("EXPLICIT_WAIT"))));
 		log.debug("waiting for page to load after browser launched");
-
+		}catch(Exception e) {
+			
+		}
 	}
 
 	@AfterMethod
