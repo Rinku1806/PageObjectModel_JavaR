@@ -9,11 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">133,264</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">336,866</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testcases.DashBoardTest</td><td><a href="#m0">verifyAllPets</a></td><td rowspan="1">1714374604562</td><td rowspan="1">68312</td></tr><tr class="failedeven"><td><a href="#m1">verifyAvailablePets</a></td><td rowspan="1">1714374678168</td><td rowspan="1">21127</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m2">VerifyHomePageTitle</a></td><td rowspan="1">1714374705584</td><td rowspan="1">5023</td></tr><tr class="passedodd"><td rowspan="2">testcases.StoreEntryTest</td><td><a href="#m3">VerifySignInButtonPresence</a></td><td rowspan="1">1714374715779</td><td rowspan="1">5906</td></tr><tr class="passedodd"><td><a href="#m4">VerifyStoreEntryTitle</a></td><td rowspan="1">1714374726874</td><td rowspan="1">5734</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.DashBoardTest</td><td><a href="#m0">verifyAllPets</a></td><td rowspan="1">1716448159887</td><td rowspan="1">71619</td></tr><tr class="failedodd"><td rowspan="2">testcases.StoreEntryTest</td><td><a href="#m1">Verifylogin</a></td><td rowspan="2">1716448438222</td><td rowspan="2">23156</td></tr><tr class="failedodd"><td><a href="#m2">Verifylogin</a></td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.DashBoardTest</td><td><a href="#m3">verifyAvailablePets</a></td><td rowspan="1">1716448237023</td><td rowspan="1">117462</td></tr><tr class="passedodd"><td rowspan="1">testcases.HomePageTest</td><td><a href="#m4">VerifyHomePageTitle</a></td><td rowspan="1">1716448360842</td><td rowspan="1">5279</td></tr><tr class="passedeven"><td rowspan="4">testcases.StoreEntryTest</td><td><a href="#m5">VerifySignInButtonPresence</a></td><td rowspan="1">1716448371312</td><td rowspan="1">9204</td></tr><tr class="passedeven"><td><a href="#m6">VerifyStoreEntryTitle</a></td><td rowspan="1">1716448386146</td><td rowspan="1">7609</td></tr><tr class="passedeven"><td><a href="#m7">Verifylogin</a></td><td rowspan="2">1716448398929</td><td rowspan="2">13522</td></tr><tr class="passedeven"><td><a href="#m8">Verifylogin</a></td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">testcases.DashBoardTest#verifyAllPets</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+<h2>Test</h2><h3 id="m0">testcases.DashBoardTest#verifyAllPets</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td></tr><tr><th colspan="2">Messages</th></tr><tr><td colspan="2"><div class="messages"><a href=Thu_May_23_12_40_31_IST_2024.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Thu_May_23_12_40_31_IST_2024.jpg target="_blank"><img src=Thu_May_23_12_40_31_IST_2024.jpg height=200 width=200></a></div></td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
 	expected [Chihuahua] but found [Poodle],
 	expected [Labrador Retriever] but found [Dalmation],
 	expected [Golden Retriever] but found [Labrador Retriever],
@@ -25,14 +25,15 @@
 	at testcases.DashBoardTest.verifyAllPets(DashBoardTest.java:84)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">testcases.DashBoardTest#verifyAvailablePets</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>edge</td><td>Y</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.WebDriverException: unknown error: unhandled inspector error: {&quot;code&quot;:-32000,&quot;message&quot;:&quot;Browser window not found&quot;}
-  (Session info: MicrosoftEdge=124.0.2478.67)
+<h3 id="m1">testcases.StoreEntryTest#Verifylogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>j2ee</td><td>rinku1806</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages"><a href=Thu_May_23_12_44_21_IST_2024.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Thu_May_23_12_44_21_IST_2024.jpg target="_blank"><img src=Thu_May_23_12_44_21_IST_2024.jpg height=200 width=200></a></div></td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#WelcomeContent&quot;}
+  (Session info: chrome=125.0.6422.76)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [73d546808356b1ae76fa0da88632d060, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 124.0.2478.67, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50974}, msedge: {msedgedriverVersion: 124.0.2478.67 (d385ef2844e0..., userDataDir: C:\Users\rkumar\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50974/devtoo..., se:cdpVersion: 124.0.2478.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 73d546808356b1ae76fa0da88632d060
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [264129cdba0dd2f81f61de38aae20b85, findElement {using=id, value=WelcomeContent}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.76, chrome: {chromedriverVersion: 125.0.6422.76 (67dcf7562b8f..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55334/devtoo..., se:cdpVersion: 125.0.6422.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 264129cdba0dd2f81f61de38aae20b85
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
@@ -40,15 +41,48 @@ Session ID: 73d546808356b1ae76fa0da88632d060
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1035)
-	at tbase.BaseTest.setUp(BaseTest.java:102)
-	at testcases.DashBoardTest.verifyAvailablePets(DashBoardTest.java:25)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+	at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">testcases.HomePageTest#VerifyHomePageTitle</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">testcases.StoreEntryTest#VerifySignInButtonPresence</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>firefox</td><td>Y</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">testcases.StoreEntryTest#VerifyStoreEntryTitle</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.StoreEntryTest#Verifylogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>firefox</td><td>Y</td><td>rinku</td><td>rinku1806</td></tr><tr><th colspan="4">Messages</th></tr><tr><td colspan="4"><div class="messages"><a href=Thu_May_23_12_44_51_IST_2024.jpg target="_blank">Screenshot link</a><br/><br><br/><a href=Thu_May_23_12_44_51_IST_2024.jpg target="_blank"><img src=Thu_May_23_12_44_51_IST_2024.jpg height=200 width=200></a></div></td></tr><tr><th colspan="4">Exception</th></tr><tr><td colspan="4"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: #WelcomeContent
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.17.0&apos;, revision: &apos;e52b1be057*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f28c9ff4-6f3c-4e49-9790-e0807668f6cd, findElement {using=id, value=WelcomeContent}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 126.0, moz:accessibilityChecks: false, moz:buildID: 20240509170740, moz:debuggerAddress: 127.0.0.1:27103, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26056, moz:profile: C:\Users\bkumar\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:27103/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: f28c9ff4-6f3c-4e49-9790-e0807668f6cd
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at pages.DashBoard.getWelcomeContent(DashBoard.java:37)
+	at testcases.StoreEntryTest.Verifylogin(StoreEntryTest.java:74)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.DashBoardTest#verifyAvailablePets</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>edge</td><td>Y</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.HomePageTest#VerifyHomePageTitle</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.StoreEntryTest#VerifySignInButtonPresence</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>firefox</td><td>Y</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.StoreEntryTest#VerifyStoreEntryTitle</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.StoreEntryTest#Verifylogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>chrome</td><td>Y</td><td>j2ee</td><td>j2ee</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.StoreEntryTest#Verifylogin</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th></tr><tr class="param stripe"><td>firefox</td><td>Y</td><td>rinku</td><td>j2ee</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

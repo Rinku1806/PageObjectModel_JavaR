@@ -18,7 +18,7 @@ public class BasePage {
 
 	public String getPageTitle() {
 		return driver.getTitle();
-	}
+	}	
 
 	public void click(WebElement element) {
 		element.click();

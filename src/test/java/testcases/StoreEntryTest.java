@@ -39,7 +39,7 @@ public class StoreEntryTest extends BaseTest {
 			throw new SkipException("Skipping the test as the run mode is NO");
 		} else {
 			try {
-				setUp("chrome");
+				setUp(browserName);
 				PetStoreHome psh = new PetStoreHome(driver);
 				StoreEntry se = psh.enterStore();
 				log.info("Validation of SignIn button availability at StoreEntry page");
@@ -52,7 +52,8 @@ public class StoreEntryTest extends BaseTest {
 		}
 	}
 
-	public void Verifylogin(String browserName, String runmode) {
+	@Test(dataProviderClass = DataUtil.class, dataProvider = "dp")
+	public void Verifylogin(String browserName, String runmode, String username, String pwd) {
 
 		if (runmode.equals("N")) {
 			log.info("Test Skipped");
@@ -61,14 +62,16 @@ public class StoreEntryTest extends BaseTest {
 		} else {
 			try {
 
-				setUp("chrome");
+				setUp(browserName);
 				PetStoreHome psh = new PetStoreHome(driver);
 				StoreEntry se = psh.enterStore();
 				sa.assertEquals(se.SignIn.getText(), Config.getProperty("EXPECTED_SIGN_IN_TEXT"));
-				se.click(se.SignIn);
+				se.click(se.SignIn);	
 				Thread.sleep(3000);
-				DashBoard dashboard = se.logontoDashBoard("j2ee", "j2ee");
+				DashBoard dashboard = se.logontoDashBoard(username, pwd);
+				Thread.sleep(3000);
 				sa.assertEquals(dashboard.getPageTitle(), Config.getProperty("EXPECTED_DASHBOARD_TITLE"));
+				sa.assertEquals(dashboard.getWelcomeContent(), Config.getProperty("EXPECTED_DASHBOARD_WELCOME_CONTENT"));
 				log.info("Validation of landing to Dashboard after login");
 			} catch (InterruptedException e) {
 				e.printStackTrace();

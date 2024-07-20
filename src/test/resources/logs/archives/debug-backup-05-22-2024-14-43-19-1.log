@@ -1,0 +1,27 @@
+2024-05-22 14:10:40.672 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:10:48.246 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-05-22 14:10:48.292 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:10:54.014 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-05-22 14:10:54.090 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:10:57.397 INFO  BaseTest:81 - Started test in firefox.
+2024-05-22 14:10:59.264 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-05-22 14:11:02.549 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-05-22 14:11:04.397 INFO  BaseTest:45 - Validation of SignIn button availability at StoreEntry page
+2024-05-22 14:11:09.418 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-05-22 14:11:10.157 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:11:16.149 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-05-22 14:11:16.179 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:11:22.131 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-05-22 14:11:22.138 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:11:24.898 INFO  BaseTest:81 - Started test in firefox.
+2024-05-22 14:11:26.591 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-05-22 14:11:29.869 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-05-22 14:11:39.791 INFO  BaseTest:75 - Validation of landing to Dashboard after login
+2024-05-22 14:11:44.796 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-05-22 14:11:45.525 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:11:51.189 INFO  BaseTest:114 - Test Execution completed, quitting
+2024-05-22 14:11:51.192 DEBUG BaseTest:55 - Config & Expected Results Properties loaded
+2024-05-22 14:11:53.894 INFO  BaseTest:81 - Started test in firefox.
+2024-05-22 14:11:55.547 INFO  BaseTest:100 - Navigating to the URL : https://petstore.octoperf.com/
+2024-05-22 14:11:58.835 DEBUG BaseTest:105 - waiting for page to load after browser launched
+2024-05-22 14:12:22.750 INFO  BaseTest:114 - Test Execution completed, quitting
